@@ -310,3 +310,9 @@ function map() {
     }
 
 }
+$(function () {
+    var navMain = $("#navbarcollapse");
+    navMain.on("click", "a", null, function () {
+        navMain.collapse('hide');
+    });
+});
