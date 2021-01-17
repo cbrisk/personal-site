@@ -316,3 +316,11 @@ $(function () {
         navMain.collapse('hide');
     });
 });
+
+
+$tel = document.querySelector(".tel");
+$email = document.querySelector(".email");
+document.addEventListener('DOMContentLoaded', function (event) {
+    $tel.setAttribute("href", "tel:3234242563");
+    $email.setAttribute("href", "mailto:cbrisk99@gmail.com");
+});
